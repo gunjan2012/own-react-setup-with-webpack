@@ -1,6 +1,6 @@
 {
   "name": "@gunjan_2001/create-react-app-using-webpack",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "This is a boilerplate setup for a React app with Webpack. It includes the basic configuration needed to get started with a React project, including a development server and a production build script.",
   "main": "index.js",
   "scripts": {
@@ -33,16 +33,5 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.3",
     "webpack-merge": "^5.8.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gunjan2012/webpack-react-setup.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gunjan2012/webpack-react-setup/issues"
-  },
-  "bin": {
-    "create-react-app-using-webpack": "bin/cli.js"
-  },
-  "homepage": "https://github.com/gunjan2012/webpack-react-setup#readme"
+  }
 }
