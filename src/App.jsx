@@ -1,5 +1,6 @@
 import "./styles/index.css";
 import svgImage from "./assets/online-community-icon.svg";
+import Subscribe from "./components/Subscribe";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       />
       <br />
       <br />
-      <button className="btn btn-primary text-center">Welcome</button>
+      <span>Welcome to React Application</span>
+      <Subscribe />
     </>
   );
 }
