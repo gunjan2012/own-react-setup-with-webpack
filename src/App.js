@@ -1,9 +1,14 @@
+import React from "react";
 import "./styles/index.css";
 import svgImage from "./assets/online-community-icon.svg";
+import ChildComponent from "./components/ChildComponent";
+import ReduceHook from "./components/ReduceHook";
+
+export const UserContext = React.createContext();
 
 function App() {
   return (
-    <>
+    <div id="root">
       <img
         className="tech-logos"
         width={200}
@@ -20,7 +25,12 @@ function App() {
       <br />
       <br />
       <span>Welcome to React Application</span>
-    </>
+
+      <UserContext.Provider value={"Gunjan"}>
+        <ChildComponent />
+      </UserContext.Provider>
+      <ReduceHook />
+    </div>
   );
 }
 
